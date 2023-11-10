@@ -1,0 +1,9 @@
+.red {
+    color: red;
+    font-size: 30px;
+    border: green 5px solid;
+}
+
+img {
+    width: 50px;
+}
