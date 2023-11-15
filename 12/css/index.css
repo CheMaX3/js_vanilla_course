@@ -1,0 +1,11 @@
+.successInput {
+    color: green;
+    border: 3px solid;
+    padding: 5px;
+}
+
+.wrongInput {
+    color: red;
+    border: 3px solid;
+    padding: 5px;
+}

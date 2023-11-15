@@ -1,0 +1,21 @@
+<input value="Hello" class="hello-message input" id="hello-message"/>
+
+<ul>
+	<li>Действие 1</li>
+	<li>Действие 2</li>
+	<li>Действие 3</li>
+	<li>Действие 4</li>
+	<li>Действие 5</li>
+</ul>
+
+<script>
+	var messageElement;
+	var messageElementId = 'hello-message'
+
+
+	messageElement = document.getElementById(messageElementId);
+
+	window.alert(messageElement.value);
+	window.alert(messageElement.id);
+	window.alert(messageElement.className);
+</script>

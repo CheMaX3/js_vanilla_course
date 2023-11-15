@@ -1,0 +1,37 @@
+<input value='Maxim' class='first-name' id='first-name' />
+<input value="Vorobyov" class="last-name" id="last-name" />
+<input value="NN" class="address" id="address" />
+
+<select id="cities">
+	<option>City 1</option>
+	<option selected="selected">City 2</option>
+	<option>City 3</option>
+</select>
+
+<textarea id="some-text">innerHTML</textarea>
+
+<script>
+	var firstNameEl;
+	var firstNameId;
+
+	firstNameId = 'first-name'
+	firstNameEl = document.getElementById(firstNameId);
+
+	document.getElementById('first-name').className = 'first-name successInput';
+	document.getElementById('last-name').className = 'last-name successInput';
+	document.getElementById('address').className = 'adress wrongInput';
+</script>
+
+<style>
+	.successInput {
+		color: green;
+		border: 3px solid;
+		padding: 5px;
+	}
+
+	.wrongInput {
+		color: red;
+		border: 3px solid;
+		padding: 5px;
+	}
+</style>
