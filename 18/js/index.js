@@ -5,6 +5,7 @@ var buttonDivide = document.getElementById("buttonDivide");
 var input1 = document.getElementById("number1");
 var input2 = document.getElementById("number2");
 var result;
+var operationButtons = [buttonPlus, buttonMinus, buttonMultiply, buttonDivide];
 
 function makeOperation(operationCode) {
     var number1 = Number(input1.value);
@@ -28,7 +29,6 @@ function onOperationButtonClick(eventObject) {
     makeOperation(operation);
 }
 
-buttonPlus.addEventListener("click", onOperationButtonClick);
-buttonMinus.addEventListener("click", onOperationButtonClick);
-buttonMultiply.addEventListener("click", onOperationButtonClick);
-buttonDivide.addEventListener("click", onOperationButtonClick);
+for (var i = 0; i < operationButtons.length; i++) {
+    operationButtons[i].addEventListener("click", onOperationButtonClick);
+}
