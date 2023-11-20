@@ -1,0 +1,40 @@
+.news-content .sections h2 {
+    color: white;
+    padding: 10px;
+}
+
+.news-content .sections .footer {
+    background-color: white;
+}
+
+.news-content .section-hot h2 {
+    background-color: blueviolet;
+}
+
+.news-content .section-hot li:hover {
+    background-color: chartreuse;
+}
+
+.news-content li:hover a {
+    color: white;
+}
+
+.news-content .section-hot .footer {
+    color: blueviolet;
+}
+
+.news-content .section-other h2 {
+    background-color: rgb(247, 136, 0);
+}
+
+.news-content .section-other li:hover {
+    background-color: rgb(17, 0, 255);
+}
+
+.news-content .section-other .footer {
+    color: rgb(247, 136, 0);
+}
+
+.news-content .sections li {
+    padding: 10px;
+}

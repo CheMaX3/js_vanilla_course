@@ -1,0 +1,10 @@
+.chemax-slider {
+    width: 50%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.chemax-slider .slide-img {
+    height: 450px;
+}

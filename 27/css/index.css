@@ -1,0 +1,16 @@
+.chemax-slider {
+    width: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.chemax-slider .slide-img {
+    height: 450px;
+}
+
+button {
+    font-size: 300px;
+    height: 100%;
+    width: 500px;
+}
